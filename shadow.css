@@ -72,20 +72,17 @@ button {
   transition: background 0.2s, color 0.2s;
 }
 
-button:focus {
-  outline: 0;
+.skip {
+  top: 50%;
+  transform: translate(0, -50%);
 }
 
-button:hover {
-  opacity: 1;
-  background: #2196f3;
-  color: #ffffff;
+button:left {
+  left: 0;
 }
 
-button:active {
-  background: #2196f3;
-  color: #ffffff;
-  font-weight: bold;
+button:right {
+  right: 0;
 }
 
 button.hideButton {
