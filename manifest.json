@@ -7,7 +7,7 @@
   "homepage_url": "https://github.com/idk-v1/videospeed-firefox",
   "browser_specific_settings": {
     "gecko": {
-      "id": "videospeed-firefox@pleb.ltd"
+      "id": "large-btn-videospeed-firefox@idkv1s"
     }
   },
   "icons": {
