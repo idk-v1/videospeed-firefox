@@ -13,7 +13,6 @@
   top: 0;
   left: 0;
 
-  background: black;
   color: white;
 
   border-radius: 6px;
@@ -74,12 +73,6 @@ button {
 
 button:focus {
   outline: 0;
-}
-
-button:hover {
-  opacity: 1;
-  background: #2196f3;
-  color: #ffffff;
 }
 
 button:active {
