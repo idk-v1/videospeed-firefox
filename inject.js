@@ -809,7 +809,7 @@ function runAction(action, value, e) {
       } else if (action === "reset") {
         log("Reset speed", 5);
         resetSpeed(v, 1.0);
-      } else if (action === "display") {
+      } else if (action === "display" && confirm("Close controls?")) {
         log("Showing controller", 5);
         controller.classList.add("vsc-manual");
         controller.classList.toggle("vsc-hidden");
