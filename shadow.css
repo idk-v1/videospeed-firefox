@@ -66,7 +66,7 @@ button {
   padding: 1px 5px 3px 5px;
   font-size: 14px;
   line-height: 14px;
-  border: 20px solid white;
+  
   font-family: "Lucida Console", Monaco, monospace;
   margin: 0px 2px 2px 2px;
   transition: background 0.2s, color 0.2s;
