@@ -305,7 +305,7 @@ function defineVideoController() {
       tc.settings.controllerOpacity
     }">
           <span data-action="drag" class="draggable">${speed}</span>
-          <span id="controls">
+          <span id="controls" style="border: ${tc.settings.controllerScale}px solid white;">
             <button data-action="rewind" class="rw">«</button>
             <button data-action="slower">&minus;</button>
             <button data-action="faster">&plus;</button>
