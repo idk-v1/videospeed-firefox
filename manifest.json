@@ -1,10 +1,10 @@
 {
-  "name": "Video Speed Controller for Android",
-  "short_name": "videospeed",
+  "name": "Large Buttons Video Speed Controller for Android",
+  "short_name": "videospeed-xl",
   "version": "0.7.6",
   "manifest_version": 2,
-  "description": " Speed up, slow down, advance and rewind HTML5 audio/video with shortcuts.\nThe codebicycle fork seems dead, so I forked it again and merged bug fixes from the original Chrome version.",
-  "homepage_url": "https://github.com/sha-265/videospeed-firefox",
+  "description": " Speed up, slow down, advance and rewind HTML5 audio/video with shortcuts.\nThe codebicycle fork seems dead, so I forked it again and merged bug fixes from the original Chrome version.\nAnd I continued the forking to make the buttons easier to press.",
+  "homepage_url": "https://github.com/idk-v1/videospeed-firefox",
   "browser_specific_settings": {
     "gecko": {
       "id": "videospeed-firefox@pleb.ltd"
