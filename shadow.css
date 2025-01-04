@@ -16,6 +16,7 @@
   height: 100%;
   pointer-events: none; 
   color: white;
+  background: black;
 
   border-radius: 6px;
   padding: 4px;
