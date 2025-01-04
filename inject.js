@@ -309,11 +309,10 @@ function defineVideoController() {
             <button data-action="slower">&minus;</button>
             <button data-action="faster">&plus;</button>
             <button data-action="display" class="hideButton">&times;</button>
-          </span>
-          <div class="skip">
+            
             <button data-action="rewind" class="rw,left">«</button>
             <button data-action="advance" class="rw,right">»</button>
-          </div>
+          </span>
         </div>
       `;
     shadow.innerHTML = shadowTemplate;
