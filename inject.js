@@ -309,11 +309,11 @@ function defineVideoController() {
     }">
           <span data-action="drag" class="draggable">${speed}</span>
           <span id="controls">
-            <button data-action="rewind" class="rw" style="border: ${tc.settings.controllerScale}px solid white;">«</button>
-            <button data-action="slower" style="border: ${tc.settings.controllerScale}px solid white;">&minus;</button>
-            <button data-action="faster" style="border: ${tc.settings.controllerScale}px solid white;">&plus;</button>
-            <button data-action="advance" class="rw" style="border: ${tc.settings.controllerScale}px solid white;">»</button>
-            <button data-action="display" class="hideButton" style="border: ${tc.settings.controllerScale}px solid white;">&times;</button>
+            <button data-action="rewind" class="rw" style="border: ${tc.settings.controllerScale}px solid white; opacity:${tc.settings.controllerOpacity};">«</button>
+            <button data-action="slower" style="border: ${tc.settings.controllerScale}px solid white; opacity:${tc.settings.controllerOpacity};">&minus;</button>
+            <button data-action="faster" style="border: ${tc.settings.controllerScale}px solid white; opacity:${tc.settings.controllerOpacity};">&plus;</button>
+            <button data-action="advance" class="rw" style="border: ${tc.settings.controllerScale}px solid white; opacity:${tc.settings.controllerOpacity};">»</button>
+            <button data-action="display" class="hideButton" style="border: ${tc.settings.controllerScale}px solid white; opacity:${tc.settings.controllerOpacity};">&times;</button>
           </span>
         </div>
       `;
