@@ -13,6 +13,7 @@ var tc = {
     audioBoolean: false, // default: false
     startHidden: false, // default: false
     controllerOpacity: 0.3, // default: 0.3
+    controllerScale: 20, // default: 20
     keyBindings: [],
     blacklist: `\
       www.instagram.com
@@ -117,6 +118,7 @@ chrome.storage.sync.get(tc.settings, function (storage) {
       startHidden: tc.settings.startHidden,
       enabled: tc.settings.enabled,
       controllerOpacity: tc.settings.controllerOpacity,
+      controllerScale: tc.settings.controllerScale,
       blacklist: tc.settings.blacklist.replace(regStrip, "")
     });
   }
@@ -128,6 +130,7 @@ chrome.storage.sync.get(tc.settings, function (storage) {
   tc.settings.enabled = Boolean(storage.enabled);
   tc.settings.startHidden = Boolean(storage.startHidden);
   tc.settings.controllerOpacity = Number(storage.controllerOpacity);
+  tc.settings.controllerScale = Number(storage.controllerScale);
   tc.settings.blacklist = String(storage.blacklist);
 
   // ensure that there is a "display" binding (for upgrades from versions that had it as a separate binding)
